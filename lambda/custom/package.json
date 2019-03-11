@@ -9,7 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@jargon/sdk-core": "^1.1.2",
     "ask-sdk-core": "^2.0.0",
     "ask-sdk-model": "^1.0.0"
+  },
+  "devDependencies": {
+    "bespoken-tools": "^2.3.4"
   }
 }

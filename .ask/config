@@ -1,9 +1,74 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.5352b13a-6fda-4536-81eb-ce6a8a7257fa",
       "was_cloned": false,
-      "merge": {}
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "2824fea3dbbc186647e3f778f87451f7"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "f6bf1c428ac9e28e2ba7d59757bcea6a"
+          },
+          "es-MX": {
+            "eTag": "149794efcef63c5937387c8cb19d8bef"
+          },
+          "fr-CA": {
+            "eTag": "e92aada9ffc5a850b03fe3fc3121485a"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-west-2:467610051821:function:ask-custom-alexa-hw-jargon-default",
+            "awsRegion": "us-west-2",
+            "codeUri": "lambda/us-west-2_ask-custom-alexa-hw-jargon-default",
+            "functionName": "ask-custom-alexa-hw-jargon-default",
+            "handler": "index.handler",
+            "revisionId": "466f3835-8caf-465c-ba58-a3f7fc3c4b21",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    },
+    "jaimeresus": {
+      "skill_id": "amzn1.ask.skill.de7684f6-39f0-4e4c-97ad-cbbd26f8efba",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "2824fea3dbbc186647e3f778f87451f7"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "f6bf1c428ac9e28e2ba7d59757bcea6a"
+          },
+          "es-MX": {
+            "eTag": "149794efcef63c5937387c8cb19d8bef"
+          },
+          "fr-CA": {
+            "eTag": "e92aada9ffc5a850b03fe3fc3121485a"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-west-2:467610051821:function:ask-custom-alexa-hw-jargon-default",
+            "awsRegion": "us-west-2",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-alexa-hw-jargon-default",
+            "handler": "index.handler",
+            "revisionId": "0f658435-c87e-4716-9252-f1dfe2a0405f",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
     }
   }
 }

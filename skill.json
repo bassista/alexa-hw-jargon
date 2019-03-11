@@ -1,31 +1,49 @@
 {
   "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "ask-custom-alexa-hw-jargon-default",
+          "sourceDir": "lambda/us-west-2_ask-custom-alexa-hw-jargon-default"
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
     "publishingInformation": {
       "locales": {
         "en-US": {
+          "name": "alexa-hw-jargon",
           "summary": "Sample Short Description",
+          "description": "Sample Full Description",
           "examplePhrases": [
             "Alexa open hello world",
             "hello",
             "help"
-          ],
-          "name": "alexa-hw-jargon",
-          "description": "Sample Full Description"
+          ]
+        },
+        "fr-CA": {
+          "name": "alexa-hw-jargon", 
+          "examplePhrases": [
+            "Alexa ouvrir Bonjour le monde" 
+            
+          ]
+        },
+        "es-MX": {
+          "name": "alexa-hw-jargon" , 
+          "examplePhrases": [
+            "Alexa abre hola mundo"              
+          ]
         }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Sample Testing Instructions.",
       "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": []
-    },
-    "apis": {
-      "custom": {
-        "endpoint": {
-          "sourceDir": "lambda/custom",
-          "uri": "ask-custom-alexa-hw-jargon-default"
-        }
-      }
-    },
-    "manifestVersion": "1.0"
+    }
   }
 }

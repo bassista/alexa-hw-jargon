@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "hello world",
+      "invocationName": "hola mundo",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -19,9 +19,9 @@
           "name": "HelloWorldIntent",
           "slots": [],
           "samples": [
-            "hello", 
-            "how are you" , 
-            "hi" 
+            "hola", 
+            "que tal" , 
+            "como estas"             
           ]
         },
         {
@@ -32,11 +32,10 @@
           "name": "LocaleIntent",
           "slots": [],
           "samples": [
-            "what language do your speak",
-            "what is your regional configuration",
-            "locale",
-            "tell me your locale",
-            "what is your locale"
+            "que idioma hablas",
+            "cual es tu configuración regional",
+            "que lengua hablas",
+            "cual es tu región"
           ]
         }
       ],

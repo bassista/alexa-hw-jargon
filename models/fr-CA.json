@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "hello world",
+      "invocationName": "bonjour le monde",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -16,27 +16,25 @@
           "samples": []
         },
         {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
           "name": "HelloWorldIntent",
           "slots": [],
           "samples": [
-            "hello", 
-            "how are you" , 
-            "hi" 
+            "bonjour", 
+            "salut" , 
+            "comment ça va " 
           ]
-        },
-        {
-          "name": "AMAZON.NavigateHomeIntent",
-          "samples": []
         },
         {
           "name": "LocaleIntent",
           "slots": [],
           "samples": [
-            "what language do your speak",
-            "what is your regional configuration",
-            "locale",
-            "tell me your locale",
-            "what is your locale"
+            "quels sont votre paramètres régionaux",
+            "quelle langue parlez-vous",
+            "quel est votre langue"
           ]
         }
       ],

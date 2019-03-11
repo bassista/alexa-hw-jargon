@@ -1,0 +1,33 @@
+{ 
+    "WELCOME" : 
+    { 
+        "v1": "Welcome to the Alexa Skills Kit, you can say hello!", 
+        "v2": "Welcome. Please say hello" , 
+        "v3": "Hello!"
+    },
+    "CARD_TITLE" : "Hello World", 
+    "SKILL_NAME" : "Hello World", 
+    "locale" : 
+    { 
+        "en" : { 
+            "US" : "English in the United States" , 
+            "GB" : "English in Great Britain"
+        }, 
+        "es" : { 
+            "MX" : "Español de Mexico" , 
+            "ES" : "Español de España"
+        }, 
+        "fr": 
+        {
+            "CA" : "Français au Canada" , 
+            "FR" : "Français au France"
+        }
+    },
+    "SAMPLE_VARIABLE_EXPANSION" : "Your locale is {localeName}" , 
+    "HELP_INSTRUCTIONS" : "You can say hello to me! Or you can ask what my locale is" , 
+    "GOODBYE": "Good bye", 
+    "ERROR_REPEAT" : { 
+        "v1": "Sorry, I can't understand the command. Please say again" , 
+        "v2": "I did not get that. Please say it again"
+    }
+}
